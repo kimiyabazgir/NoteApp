@@ -1,4 +1,4 @@
-package com.example.kimziapplication
+package com.example.noteApp
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

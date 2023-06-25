@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">KimziApplication</string>
+    <string name="textInfo">This text is fetched from string</string>
 </resources>

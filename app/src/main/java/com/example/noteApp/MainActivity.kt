@@ -1,23 +1,24 @@
-package com.example.kimziapplication
+package com.example.noteApp
 
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kimziapplication.databinding.ActivityMainBinding
-import com.example.kimziapplication.di.qualifire.SiteName
 import dagger.hilt.android.AndroidEntryPoint
-import javax.inject.Inject
+import javax.inject.Named
+
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
-    @Inject
-    @SiteName
-    lateinit var userName:String
+
+    @Named("NAMED_APP_INFO")
+    private lateinit var userName:String
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         binding= ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.apply {

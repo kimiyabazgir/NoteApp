@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/K.bazgirfard/AndroidStudioProjects/KimziApplication/app/src/main/res/layout/activity_main.xml" value="0.159375" />
+        <entry key="..\:/Users/K.bazgirfard/AndroidStudioProjects/KimziApplication/app/src/main/res/layout/activity_note.xml" value="0.18235294117647058" />
+        <entry key="..\:/Users/K.bazgirfard/AndroidStudioProjects/KimziApplication/app/src/main/res/layout/item_notes.xml" value="0.1" />
+        <entry key="..\:/Users/K.bazgirfard/AndroidStudioProjects/NotApp/app/src/main/res/layout/activity_main.xml" value="0.17046605876393112" />
+        <entry key="..\:/Users/K.bazgirfard/AndroidStudioProjects/NotApp/app/src/main/res/layout/item_notes.xml" value="0.17046605876393112" />
       </map>
     </option>
   </component>

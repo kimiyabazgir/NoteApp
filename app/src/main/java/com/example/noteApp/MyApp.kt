@@ -1,4 +1,4 @@
-package com.example.kimziapplication
+package com.example.noteApp
 
 import  android.app.Application
 import dagger.hilt.android.HiltAndroidApp
